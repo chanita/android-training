@@ -5,9 +5,11 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.myandroid.R
 import com.example.myandroid.databinding.ActivityFirstBinding
+import com.example.myandroid.generated.callback.OnClickListener
 import com.example.myandroid.model.SecondModel
 import com.example.myandroid.ui.base.BaseActivity
 
