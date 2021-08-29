@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.myandroid.R
 import com.example.myandroid.databinding.FragmentSecondBinding
@@ -39,5 +40,7 @@ class SecondFragment : BaseFragement() {
 
     private fun navigateToThird() {
         // TODO
+        val directions = SecondFragmentDirections.actionSecondFragmentToThirdFragment2()
+        findNavController().navigate(directions)
     }
 }

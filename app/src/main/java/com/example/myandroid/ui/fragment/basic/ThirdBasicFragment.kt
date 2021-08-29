@@ -25,7 +25,7 @@ class ThirdBasicFragment : BaseFragement() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnDone.setOnClickListener {
-            // TODO
+            activity?.finish()
         }
     }
 }

@@ -23,5 +23,13 @@
             android:name="model"
             app:argType="com.example.myandroid.model.SecondModel"
             app:nullable="true" />
+        <action
+            android:id="@+id/action_secondFragment_to_thirdFragment2"
+            app:destination="@id/thirdFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.myandroid.ui.navigate.fragment.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
 </navigation>
